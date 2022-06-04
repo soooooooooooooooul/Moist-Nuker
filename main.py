@@ -41,7 +41,7 @@ else:
 
 moist.remove_command("help")
 session = FuturesSession(max_workers=spam_amount)
-#Luna Nuker Proxies Cycle.
+
 #token = os.getenv("TOKEN") If you put your token in secrets, delete the `#` & modify the `TOKEN` to the KEY_NAME. If you this bot repl.it. 
 
 
