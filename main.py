@@ -8,7 +8,7 @@ import os, sys, random, urllib.request, asyncio, time
 from discord.ext import commands
 from threading import Thread
 from requests_futures.sessions import FuturesSession # pip install requests-futures
-from itertools import cycle
+
 
 #Design : Rex Nuker.
 if sys.platform == "linux":
@@ -29,7 +29,7 @@ spam = settings.get("Spam")
 spam_amount = settings.get("Spam Amount")
 spam_messages = settings.get("Spam Messages")
 bot = settings.get("bot")
-hang_names = settings.get("Hang Names")
+
 
 
 if bot:
@@ -42,9 +42,8 @@ else:
 moist.remove_command("help")
 session = FuturesSession(max_workers=spam_amount)
 #Luna Nuker Proxies Cycle.
-#token = os.getenv("TOKEN") If you put your token in secrets, delete the `#` & modify the `TOKEN` to the KEY_NAME. 
-proxies = []
-rotate = cycle(proxies)
+#token = os.getenv("TOKEN") If you put your token in secrets, delete the `#` & modify the `TOKEN` to the KEY_NAME. If you this bot repl.it. 
+
 
 color = "\x1b[38;5;92m"#Purple
 colour = "\x1b[38;5;89m"#Dark Brown/Red
@@ -103,8 +102,7 @@ else:
   headers = {
     "authorization": f"{token}"
   }
-def moist_logo(ctx): 
-    print("""a""")
+
 
 @moist.command(aliases=["destroy","help","nuke","w","hi"])
 async def moisty(ctx):
