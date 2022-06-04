@@ -1,1 +1,17 @@
+{
+  "Token": "TOKEN HERE",
+  "Prefix": "soul.",
 
+  "Channel Names": ["soul was here","soul runs u","soul clowned you"],
+  "Role Names": ["Soul wasnt here","soul","fucked by soul"],
+  "Server Name": "ran by soul",
+  "Webhook Usernames": ["Soul wasn't here","lol"],
+  
+  "Reason": ["ran by soul",":skull_emoji: fucked by soul :skull_crossbones_emoji:"],
+
+  "Spam": true,
+  "Spam Amount": 1000,
+  "Spam Messages": ["@everyone what is this ","@everyone oh oh","@everyone lmfao"],
+
+  "bot": true
+}
