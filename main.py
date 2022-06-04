@@ -42,7 +42,7 @@ else:
 moist.remove_command("help")
 session = FuturesSession(max_workers=spam_amount)
 
-#token = os.getenv("TOKEN") If you put your token in secrets, delete the `#` & modify the `TOKEN` to the KEY_NAME. If you this bot repl.it. 
+#token = os.getenv("TOKEN") If you put your token in secrets, delete the `#` & modify the `TOKEN` to the KEY_NAME. If you use this bot repl.it. 
 
 
 color = "\x1b[38;5;92m"#Purple
